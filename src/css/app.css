@@ -1,0 +1,40 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+ body{
+    font-size: 20px;
+    font-family: Roboto sans-serif;
+    background-color:  #12a4d9;
+    color: black;
+
+ }
+
+ .app{
+    padding: 2rem;
+    width: 95%;
+    margin: 0 auto;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+    .app{
+        padding: 1.5rem 2rem;
+        width: 90%;
+        margin: 0 auto;
+     }
+ }
+
+ @media only screen and (min-width: 600px) {
+    .app{
+        padding: 3rem;
+        width: 90%;
+        margin: 0 auto;
+     }
+ }
+
+ @media only screen and (min-width: 768px) {
+    .app{
+        padding: 2.5rem;
+        width: 90%;
+        margin: 0 auto;
+     }
+ }
